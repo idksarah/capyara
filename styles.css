@@ -1,0 +1,13 @@
+.capyara{ 
+    animation:2s rotate infinite linear; 
+    height: 80em;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes rotate{
+    100%{ transform:rotate(1turn) }
+}
